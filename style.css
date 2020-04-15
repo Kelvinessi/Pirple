@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI';
+    /* font-family: Arial, Helvetica, sans-serif;*/
+}
+
+body {
+    /*background-color: hsl(0, 0%, 95%);*/
+    font-size: 18px;
+}
+
+#loginbar {
+    float: left;
+    padding-top: 30px;
+    padding-left: 80px;
+    margin-inline-start: auto;
+}
+
+input {
+    padding: 0px 18px;
+    margin: 0px 4px;
+    line-height: 40px;
+    border-color: #aab8c2;
+    border-radius: 3px;
+    border-style: double;
+    box-shadow: none;
+    width: 180px;
+}
+
+#login-main {
+    color: #1da1f2;
+    background: #ffffff;
+    border-color: #1da1f2;
+    border-radius: 100px;
+    padding: 6px 16px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 30px;
+    box-shadow: none;
+    border-style: double;
+}
+
+#login-main:hover {
+    background: #0292eb23;
+}
+
+#password {
+    padding-top: -1px;
+    padding-left: 238px;
+    font-size: 14px;
+    color: #aab8c2;
+    text-decoration: none;
+    text-align: inherit;
+}
+
+#password:hover {
+    text-decoration: underline;
+}
+
+#wrapper {
+    padding-top: 190px;
+    padding-left: 200px;
+}
+
+li {
+    color: white;
+    padding: 0px 16px;
+    margin: 48px auto;
+}
+
+h1 {
+    font-size: 27px;
+    padding-top: 25vh;
+}
+
+p {
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 6vh;
+}
+
+.goup-h1-p {
+    font-family: 'Segoe UI';
+    color: #14171a;
+    padding-left: 23vh;
+}
+
+#button-1 {
+    color: #ffffff;
+    background: #1da1f2;
+    border-radius: 100px;
+    border-color: transparent;
+    border-style: solid;
+    padding: 6px 16px;
+    margin: 0px 0px 16px;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    width: 360px;
+    line-height: 18px;
+    box-shadow: none;
+}
+
+#buttons {
+    padding-left: 150px;
+    padding-top: 15px;
+    font-family: Segoe UI;
+}
+
+#button-2 {
+    color: #1da1f2;
+    background: #ffffff;
+    border-color: #1da1f2;
+    border-radius: 100px;
+    padding: 6px 16px;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    width: 360px;
+    line-height: 18px;
+    box-shadow: none;
+    border-style: solid;
+}
+
+#button-1:hover {
+    background: #0291eb;
+}
+
+#button-2:hover {
+    background: #0292eb23;
+}
+
+#logo {
+    background: transparent;
+    height: 35px;
+    width: 40px;
+    padding: 0;
+}
+
+#section-A {
+    height: 93.5vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: url(images/thumb.png);
+    background-size: contain;
+}
+
+.search-icon {
+    font-weight: bold;
+    list-style-image: url(images/search.png);
+}
+
+.people-icon {
+    font-weight: bold;
+    list-style-image: url(images/twoman.png);
+}
+
+.message-icon {
+    font-weight: bold;
+    list-style-image: url(images/msg.png);
+}
+
+#section-B {
+    background-color: #ffffff;
+}
+
+footer .row-line nav ul a {
+    color: #aab8c2;
+    display: inline-flex;
+    font-size: 12px;
+    margin: 5px 0px;
+    padding: 0px 5px;
+    */
+}
+
+ul {
+    padding: 8px 0px;
+    padding-left: 150px;
+}
+
+a {
+    text-decoration: none;
+    text-align: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#copyright {
+    text-decoration: none;
+    cursor: text;
+}
+
+.nav-row ul a {
+    font-family: 'Segoe UI';
+}
+
+@media (min-width)
